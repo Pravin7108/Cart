@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="cart.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <a href="#" class="logo">
+                <ion-icon name="book-outline"></ion-icon>Books</a>
+                
+            <div class="box">
+              <div class="cart-count">0</div>
+              <ion-icon name="cart-outline" id="cart-icon"></ion-icon>
+        </div>
+
+        <div class="cart">
+            <div class="cart-title">Cart items</div>
+            <div class="cart-content">
+
+        <!--   <div class="cart-box">
+                    <img class="cart-img" src="C:\Users\pravi\OneDrive\Desktop\Works\biology.jpg">
+                    <div class="detail-box">
+                        <div class="cart-book-title">Biology book</div>
+                        <div class="price-box">
+                            <div class="cart-price">Rs. 50</div>
+                            <div class="cart-amt">Rs. 50</div>
+                        </div>
+                        <input type="number" value="1" class="cart-quantity">
+                    </div>
+                    <ion-icon name="trash-outline" class="cart-remove"></ion-icon>
+                </div> -->
+
+            </div>
+
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">Rs. 0</div>
+            </div>
+            <button class="btn-buy">Place Order</button>
+            <ion-icon name="close-outline" id="cart-close"></ion-icon>
+        </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2 class="title">Discover your book</h2>
+        <div class="shop-content">
+            
+            <div class="book-box">
+            <div class="pic">
+                <img class="book-img" src="biology.jpg" alt="biology">
+            </div>
+            <h2 class="book-title">Biology</h2>
+            <span class="book-price">Rs. 50</span>
+            <ion-icon name="cart-outline" class="add-cart"></ion-icon>
+            </div>
+
+            <div class="book-box">
+                <div class="pic">
+                    <img class="book-img" src="computer.jpg" alt="computer">
+                </div>
+                <h2 class="book-title">Computer</h2>
+                <span class="book-price">Rs. 70</span>
+                <ion-icon name="cart-outline" class="add-cart"></ion-icon>
+            </div>
+
+            <div class="book-box">
+                <div class="pic">
+                    <img class="book-img" src="science.jpg" alt="science">
+                </div>
+                    <h2 class="book-title">Science</h2>
+                    <span class="book-price">Rs. 80</span>
+                    <ion-icon name="cart-outline" class="add-cart"></ion-icon>
+             </div>
+
+            <div class="book-box">
+                <div class="pic">
+                    <img class="book-img" src="maths.jpg" alt="maths">
+                </div>
+                    <h2 class="book-title">Maths</h2>
+                    <span class="book-price">Rs. 60</span>
+                    <ion-icon name="cart-outline" class="add-cart"></ion-icon>
+            </div>
+    </div>
+    </div>
+
+    <script src="cart.js"></script>
+</body>
+</html>
